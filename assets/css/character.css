@@ -1,0 +1,13 @@
+/* Estilos específicos para a página de criação de personagem */
+.character-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .character-form .form-label {
+    font-weight: bold;
+  }
+  
+  .character-form .form-select {
+    margin-bottom: 20px;
+  }

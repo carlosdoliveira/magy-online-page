@@ -1,0 +1,92 @@
+/* Estilos específicos para a página de login */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Seção de Login com Fundo Estendido */
+.form-section {
+  background: url('../images/signup-signin.png') no-repeat center center/cover;
+  color: white;
+  height: 120vh; /* Cobrir toda a altura da tela + um pouco mais */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.form-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+/* Card do Formulário */
+.form-section .card {
+  background-color: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
+  border: none;
+  border-radius: 10px;
+  backdrop-filter: blur(10px); /* Efeito de desfoque */
+  color: white; /* Cor do texto */
+}
+
+/* Título do Card */
+.form-section .card-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: white; /* Cor do título */
+}
+
+/* Labels dos Campos */
+.form-section .form-label {
+  font-weight: bold;
+  color: white; /* Cor dos labels */
+}
+
+/* Inputs */
+.form-section .form-control {
+  background-color: rgba(255, 255, 255, 0.2); /* Fundo semi-transparente para inputs */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Borda sutil */
+  color: white; /* Cor do texto nos inputs */
+}
+
+/* Placeholder dos Inputs */
+.form-section .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.7); /* Cor do placeholder */
+}
+
+/* Botão de Login */
+.form-section .btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  color: white; /* Cor do texto no botão */
+}
+
+/* Efeito ao Passar o Mouse no Botão */
+.form-section .btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+/* Links */
+.form-section a {
+  color: #0d6efd; /* Cor dos links */
+}
+
+/* Efeito ao Passar o Mouse nos Links */
+.form-section a:hover {
+  text-decoration: underline;
+}

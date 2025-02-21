@@ -1,0 +1,30 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+/* Estilos para o logo na navbar */
+.navbar-brand img {
+  height: 40;
+  /* Ajuste a altura conforme necessário */
+  width: auto;
+  /* Mantém a proporção original */
+  margin-right: 10px;
+  /* Espaçamento à direita */
+}
